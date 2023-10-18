@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Nunito:wght@300;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('logo2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30%;
+}
+
+#cabecalho{
+    list-style: none;
+    color: white;
+    display: flex;
+    padding: 2% 0 0 25%;
+
+
+}
+li{
+    font-family: 'Autour One', sans-serif;
+    margin-left: 3em;
+    font-size: 18px;
+}
+
+.conteudo{
+    font-family: 'Autour One', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    padding: 2% 7%;
+    gap:3em;
+}
+
+.conteudo_titulo{
+    font-size: 33px;
+    color: white;
+
+}
+
+.conteudo_apresentacao{
+    width: 90%;
+    font-size:18px;
+    color: white;
+}
+
+.botao_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.botao{
+    background-color: white;
+    border: 2px solid white;
+    color: #f70759;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border-radius: 9px;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Autour One', sans-serif;
+    box-shadow: 2px 2px 2px 2px #f70759;
+}
+
+.botao:hover{
+    transition: 0.2s;
+    background-color: #F54778;
+    border: 3px double #F54778;
+    box-shadow: 2px 2px 2px 2px #f70759;
+    color: white;
+    
+}
+
+.discord{
+    display: inline-block;
+    margin-right: 1.2em;
+    width: 10%;
+}
+
+.botao2{
+    display: inline-block;
+    margin-right: 1.2em;
+}
